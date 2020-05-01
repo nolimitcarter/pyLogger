@@ -1,3 +1,1 @@
-# pyLogger
-
-Python key logger 
+Usage: pip install pynput
