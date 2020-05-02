@@ -2,7 +2,7 @@ import pynput
 
 from pynput.keyboard import Key, Listener
 
-# Count is how often we are going to update the file. `if count >= 110 
+# Count is how often we are going to update the file. `if count >= 110`
 count = 0
 keys = []
 
