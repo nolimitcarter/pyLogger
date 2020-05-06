@@ -1,4 +1,4 @@
-# Python Key Logger
+## Python Key Logger
 `Updated to: v1.0` 
 
 * saves keys logged automatically to log.txt every `count=` entry.
