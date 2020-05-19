@@ -1,5 +1,7 @@
+[![Build Status](https://travis-ci.com/travis-ci/travis-web.svg?branch=master)](https://travis-ci.com/travis-ci/travis-web)
+`updated to version 1.0.1`
 ## Python Key Logger
-`Updated to: v1.0` 
+ 
 
 
 * saves keys logged automatically to log.txt every `count=` entry.
